@@ -13,6 +13,13 @@
 		A388F47A2324F263009EB5D3 /* MainMapViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A388F4792324F263009EB5D3 /* MainMapViewData.swift */; };
 		A388F47C2324F2A3009EB5D3 /* MainMapViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A388F47B2324F2A3009EB5D3 /* MainMapViewProtocol.swift */; };
 		A388F47E2324F35C009EB5D3 /* MainMapViewController+ViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A388F47D2324F35C009EB5D3 /* MainMapViewController+ViewProtocol.swift */; };
+		A388F4862324F510009EB5D3 /* StopoverLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A388F4852324F510009EB5D3 /* StopoverLocation.swift */; };
+		A388F4882324F562009EB5D3 /* StopoverLocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A388F4872324F562009EB5D3 /* StopoverLocationService.swift */; };
+		A388F48A2324F5A2009EB5D3 /* StopoverMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A388F4892324F5A2009EB5D3 /* StopoverMapViewController.swift */; };
+		A388F48C2324F5E1009EB5D3 /* StopoverMapViewController+ViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A388F48B2324F5E1009EB5D3 /* StopoverMapViewController+ViewProtocol.swift */; };
+		A388F48E2324F5FD009EB5D3 /* StopoverMapViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A388F48D2324F5FD009EB5D3 /* StopoverMapViewData.swift */; };
+		A388F4902324F60D009EB5D3 /* StopoverMapViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A388F48F2324F60D009EB5D3 /* StopoverMapViewProtocol.swift */; };
+		A388F4922324F652009EB5D3 /* StopoverMapPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A388F4912324F651009EB5D3 /* StopoverMapPresenter.swift */; };
 		A3C5E7A322E1F1C60098F520 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C5E7A222E1F1C60098F520 /* AppDelegate.swift */; };
 		A3C5E7A522E1F1C60098F520 /* MainMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C5E7A422E1F1C60098F520 /* MainMapViewController.swift */; };
 		A3C5E7A822E1F1C60098F520 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3C5E7A622E1F1C60098F520 /* Main.storyboard */; };
@@ -29,6 +36,13 @@
 		A388F4792324F263009EB5D3 /* MainMapViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMapViewData.swift; sourceTree = "<group>"; };
 		A388F47B2324F2A3009EB5D3 /* MainMapViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMapViewProtocol.swift; sourceTree = "<group>"; };
 		A388F47D2324F35C009EB5D3 /* MainMapViewController+ViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainMapViewController+ViewProtocol.swift"; sourceTree = "<group>"; };
+		A388F4852324F510009EB5D3 /* StopoverLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopoverLocation.swift; sourceTree = "<group>"; };
+		A388F4872324F562009EB5D3 /* StopoverLocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopoverLocationService.swift; sourceTree = "<group>"; };
+		A388F4892324F5A2009EB5D3 /* StopoverMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopoverMapViewController.swift; sourceTree = "<group>"; };
+		A388F48B2324F5E1009EB5D3 /* StopoverMapViewController+ViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StopoverMapViewController+ViewProtocol.swift"; sourceTree = "<group>"; };
+		A388F48D2324F5FD009EB5D3 /* StopoverMapViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopoverMapViewData.swift; sourceTree = "<group>"; };
+		A388F48F2324F60D009EB5D3 /* StopoverMapViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopoverMapViewProtocol.swift; sourceTree = "<group>"; };
+		A388F4912324F651009EB5D3 /* StopoverMapPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopoverMapPresenter.swift; sourceTree = "<group>"; };
 		A3C5E79F22E1F1C60098F520 /* bike-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bike-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3C5E7A222E1F1C60098F520 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3C5E7A422E1F1C60098F520 /* MainMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMapViewController.swift; sourceTree = "<group>"; };
@@ -75,6 +89,9 @@
 		A388F46B2324EF09009EB5D3 /* Stopover */ = {
 			isa = PBXGroup;
 			children = (
+				A388F4842324F4DD009EB5D3 /* Model */,
+				A388F4832324F4D7009EB5D3 /* View */,
+				A388F4822324F4CE009EB5D3 /* Presenter */,
 			);
 			path = Stopover;
 			sourceTree = "<group>";
@@ -140,6 +157,34 @@
 			children = (
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		A388F4822324F4CE009EB5D3 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A388F48D2324F5FD009EB5D3 /* StopoverMapViewData.swift */,
+				A388F48F2324F60D009EB5D3 /* StopoverMapViewProtocol.swift */,
+				A388F4912324F651009EB5D3 /* StopoverMapPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		A388F4832324F4D7009EB5D3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A388F4892324F5A2009EB5D3 /* StopoverMapViewController.swift */,
+				A388F48B2324F5E1009EB5D3 /* StopoverMapViewController+ViewProtocol.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A388F4842324F4DD009EB5D3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A388F4852324F510009EB5D3 /* StopoverLocation.swift */,
+				A388F4872324F562009EB5D3 /* StopoverLocationService.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		A3C5E79622E1F1C60098F520 = {
@@ -307,9 +352,16 @@
 			files = (
 				A3C5E7A522E1F1C60098F520 /* MainMapViewController.swift in Sources */,
 				A388F4702324F087009EB5D3 /* MapLocation.swift in Sources */,
+				A388F48C2324F5E1009EB5D3 /* StopoverMapViewController+ViewProtocol.swift in Sources */,
+				A388F48A2324F5A2009EB5D3 /* StopoverMapViewController.swift in Sources */,
 				A388F47A2324F263009EB5D3 /* MainMapViewData.swift in Sources */,
 				A388F4732324F0C7009EB5D3 /* MapLocationService.swift in Sources */,
 				A3C5E7A322E1F1C60098F520 /* AppDelegate.swift in Sources */,
+				A388F48E2324F5FD009EB5D3 /* StopoverMapViewData.swift in Sources */,
+				A388F4902324F60D009EB5D3 /* StopoverMapViewProtocol.swift in Sources */,
+				A388F4862324F510009EB5D3 /* StopoverLocation.swift in Sources */,
+				A388F4882324F562009EB5D3 /* StopoverLocationService.swift in Sources */,
+				A388F4922324F652009EB5D3 /* StopoverMapPresenter.swift in Sources */,
 				A388F47E2324F35C009EB5D3 /* MainMapViewController+ViewProtocol.swift in Sources */,
 				A388F47C2324F2A3009EB5D3 /* MainMapViewProtocol.swift in Sources */,
 				A388F4782324F1F3009EB5D3 /* MainMapPresenter.swift in Sources */,
