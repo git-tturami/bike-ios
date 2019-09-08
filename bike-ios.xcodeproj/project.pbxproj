@@ -20,6 +20,13 @@
 		A388F48E2324F5FD009EB5D3 /* StopoverMapViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A388F48D2324F5FD009EB5D3 /* StopoverMapViewData.swift */; };
 		A388F4902324F60D009EB5D3 /* StopoverMapViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A388F48F2324F60D009EB5D3 /* StopoverMapViewProtocol.swift */; };
 		A388F4922324F652009EB5D3 /* StopoverMapPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A388F4912324F651009EB5D3 /* StopoverMapPresenter.swift */; };
+		A388F4972324F6E6009EB5D3 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = A388F4962324F6E6009EB5D3 /* Result.swift */; };
+		A388F4992324F6F0009EB5D3 /* ResultService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A388F4982324F6F0009EB5D3 /* ResultService.swift */; };
+		A388F49B2324F70E009EB5D3 /* ResultViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A388F49A2324F70E009EB5D3 /* ResultViewData.swift */; };
+		A388F49D2324F718009EB5D3 /* ResultViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A388F49C2324F718009EB5D3 /* ResultViewProtocol.swift */; };
+		A388F49F2324F725009EB5D3 /* ResultPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A388F49E2324F725009EB5D3 /* ResultPresenter.swift */; };
+		A388F4A12324F74C009EB5D3 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A388F4A02324F74C009EB5D3 /* ResultViewController.swift */; };
+		A388F4A32324F75D009EB5D3 /* ResultViewController+ViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A388F4A22324F75D009EB5D3 /* ResultViewController+ViewProtocol.swift */; };
 		A3C5E7A322E1F1C60098F520 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C5E7A222E1F1C60098F520 /* AppDelegate.swift */; };
 		A3C5E7A522E1F1C60098F520 /* MainMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C5E7A422E1F1C60098F520 /* MainMapViewController.swift */; };
 		A3C5E7A822E1F1C60098F520 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3C5E7A622E1F1C60098F520 /* Main.storyboard */; };
@@ -43,6 +50,13 @@
 		A388F48D2324F5FD009EB5D3 /* StopoverMapViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopoverMapViewData.swift; sourceTree = "<group>"; };
 		A388F48F2324F60D009EB5D3 /* StopoverMapViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopoverMapViewProtocol.swift; sourceTree = "<group>"; };
 		A388F4912324F651009EB5D3 /* StopoverMapPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopoverMapPresenter.swift; sourceTree = "<group>"; };
+		A388F4962324F6E6009EB5D3 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		A388F4982324F6F0009EB5D3 /* ResultService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultService.swift; sourceTree = "<group>"; };
+		A388F49A2324F70E009EB5D3 /* ResultViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewData.swift; sourceTree = "<group>"; };
+		A388F49C2324F718009EB5D3 /* ResultViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewProtocol.swift; sourceTree = "<group>"; };
+		A388F49E2324F725009EB5D3 /* ResultPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultPresenter.swift; sourceTree = "<group>"; };
+		A388F4A02324F74C009EB5D3 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		A388F4A22324F75D009EB5D3 /* ResultViewController+ViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ResultViewController+ViewProtocol.swift"; sourceTree = "<group>"; };
 		A3C5E79F22E1F1C60098F520 /* bike-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bike-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3C5E7A222E1F1C60098F520 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3C5E7A422E1F1C60098F520 /* MainMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMapViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +120,9 @@
 		A388F46E2324EF39009EB5D3 /* End */ = {
 			isa = PBXGroup;
 			children = (
+				A388F4932324F695009EB5D3 /* Model */,
+				A388F4942324F6A4009EB5D3 /* View */,
+				A388F4952324F6AC009EB5D3 /* Presenter */,
 			);
 			path = End;
 			sourceTree = "<group>";
@@ -185,6 +202,34 @@
 				A388F4872324F562009EB5D3 /* StopoverLocationService.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		A388F4932324F695009EB5D3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A388F4962324F6E6009EB5D3 /* Result.swift */,
+				A388F4982324F6F0009EB5D3 /* ResultService.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A388F4942324F6A4009EB5D3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A388F4A02324F74C009EB5D3 /* ResultViewController.swift */,
+				A388F4A22324F75D009EB5D3 /* ResultViewController+ViewProtocol.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A388F4952324F6AC009EB5D3 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A388F49A2324F70E009EB5D3 /* ResultViewData.swift */,
+				A388F49C2324F718009EB5D3 /* ResultViewProtocol.swift */,
+				A388F49E2324F725009EB5D3 /* ResultPresenter.swift */,
+			);
+			path = Presenter;
 			sourceTree = "<group>";
 		};
 		A3C5E79622E1F1C60098F520 = {
@@ -350,19 +395,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A388F4992324F6F0009EB5D3 /* ResultService.swift in Sources */,
 				A3C5E7A522E1F1C60098F520 /* MainMapViewController.swift in Sources */,
+				A388F4A12324F74C009EB5D3 /* ResultViewController.swift in Sources */,
 				A388F4702324F087009EB5D3 /* MapLocation.swift in Sources */,
 				A388F48C2324F5E1009EB5D3 /* StopoverMapViewController+ViewProtocol.swift in Sources */,
 				A388F48A2324F5A2009EB5D3 /* StopoverMapViewController.swift in Sources */,
+				A388F4A32324F75D009EB5D3 /* ResultViewController+ViewProtocol.swift in Sources */,
 				A388F47A2324F263009EB5D3 /* MainMapViewData.swift in Sources */,
 				A388F4732324F0C7009EB5D3 /* MapLocationService.swift in Sources */,
+				A388F4972324F6E6009EB5D3 /* Result.swift in Sources */,
 				A3C5E7A322E1F1C60098F520 /* AppDelegate.swift in Sources */,
+				A388F49D2324F718009EB5D3 /* ResultViewProtocol.swift in Sources */,
 				A388F48E2324F5FD009EB5D3 /* StopoverMapViewData.swift in Sources */,
+				A388F49F2324F725009EB5D3 /* ResultPresenter.swift in Sources */,
 				A388F4902324F60D009EB5D3 /* StopoverMapViewProtocol.swift in Sources */,
 				A388F4862324F510009EB5D3 /* StopoverLocation.swift in Sources */,
 				A388F4882324F562009EB5D3 /* StopoverLocationService.swift in Sources */,
 				A388F4922324F652009EB5D3 /* StopoverMapPresenter.swift in Sources */,
 				A388F47E2324F35C009EB5D3 /* MainMapViewController+ViewProtocol.swift in Sources */,
+				A388F49B2324F70E009EB5D3 /* ResultViewData.swift in Sources */,
 				A388F47C2324F2A3009EB5D3 /* MainMapViewProtocol.swift in Sources */,
 				A388F4782324F1F3009EB5D3 /* MainMapPresenter.swift in Sources */,
 			);
