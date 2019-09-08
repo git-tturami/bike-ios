@@ -27,6 +27,13 @@
 		A388F49F2324F725009EB5D3 /* ResultPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A388F49E2324F725009EB5D3 /* ResultPresenter.swift */; };
 		A388F4A12324F74C009EB5D3 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A388F4A02324F74C009EB5D3 /* ResultViewController.swift */; };
 		A388F4A32324F75D009EB5D3 /* ResultViewController+ViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A388F4A22324F75D009EB5D3 /* ResultViewController+ViewProtocol.swift */; };
+		A388F4A82324F7D8009EB5D3 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = A388F4A72324F7D8009EB5D3 /* History.swift */; };
+		A388F4AA2324F7E3009EB5D3 /* HistoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A388F4A92324F7E3009EB5D3 /* HistoryService.swift */; };
+		A388F4AC2324F7FF009EB5D3 /* HistoryViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A388F4AB2324F7FF009EB5D3 /* HistoryViewData.swift */; };
+		A388F4AE2324F812009EB5D3 /* HistoryViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A388F4AD2324F812009EB5D3 /* HistoryViewProtocol.swift */; };
+		A388F4B02324F835009EB5D3 /* HistoryPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A388F4AF2324F835009EB5D3 /* HistoryPresenter.swift */; };
+		A388F4B22324F84E009EB5D3 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A388F4B12324F84E009EB5D3 /* HistoryViewController.swift */; };
+		A388F4B42324F85C009EB5D3 /* HistoryViewController+ViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A388F4B32324F85C009EB5D3 /* HistoryViewController+ViewProtocol.swift */; };
 		A3C5E7A322E1F1C60098F520 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C5E7A222E1F1C60098F520 /* AppDelegate.swift */; };
 		A3C5E7A522E1F1C60098F520 /* MainMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C5E7A422E1F1C60098F520 /* MainMapViewController.swift */; };
 		A3C5E7A822E1F1C60098F520 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3C5E7A622E1F1C60098F520 /* Main.storyboard */; };
@@ -57,6 +64,13 @@
 		A388F49E2324F725009EB5D3 /* ResultPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultPresenter.swift; sourceTree = "<group>"; };
 		A388F4A02324F74C009EB5D3 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		A388F4A22324F75D009EB5D3 /* ResultViewController+ViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ResultViewController+ViewProtocol.swift"; sourceTree = "<group>"; };
+		A388F4A72324F7D8009EB5D3 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		A388F4A92324F7E3009EB5D3 /* HistoryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryService.swift; sourceTree = "<group>"; };
+		A388F4AB2324F7FF009EB5D3 /* HistoryViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewData.swift; sourceTree = "<group>"; };
+		A388F4AD2324F812009EB5D3 /* HistoryViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewProtocol.swift; sourceTree = "<group>"; };
+		A388F4AF2324F835009EB5D3 /* HistoryPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryPresenter.swift; sourceTree = "<group>"; };
+		A388F4B12324F84E009EB5D3 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		A388F4B32324F85C009EB5D3 /* HistoryViewController+ViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HistoryViewController+ViewProtocol.swift"; sourceTree = "<group>"; };
 		A3C5E79F22E1F1C60098F520 /* bike-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bike-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3C5E7A222E1F1C60098F520 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3C5E7A422E1F1C60098F520 /* MainMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMapViewController.swift; sourceTree = "<group>"; };
@@ -113,6 +127,9 @@
 		A388F46C2324EF0C009EB5D3 /* Setting */ = {
 			isa = PBXGroup;
 			children = (
+				A388F4A62324F7C4009EB5D3 /* Model */,
+				A388F4A52324F7BC009EB5D3 /* View */,
+				A388F4A42324F7B4009EB5D3 /* Presenter */,
 			);
 			path = Setting;
 			sourceTree = "<group>";
@@ -230,6 +247,34 @@
 				A388F49E2324F725009EB5D3 /* ResultPresenter.swift */,
 			);
 			path = Presenter;
+			sourceTree = "<group>";
+		};
+		A388F4A42324F7B4009EB5D3 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A388F4AB2324F7FF009EB5D3 /* HistoryViewData.swift */,
+				A388F4AD2324F812009EB5D3 /* HistoryViewProtocol.swift */,
+				A388F4AF2324F835009EB5D3 /* HistoryPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		A388F4A52324F7BC009EB5D3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A388F4B12324F84E009EB5D3 /* HistoryViewController.swift */,
+				A388F4B32324F85C009EB5D3 /* HistoryViewController+ViewProtocol.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A388F4A62324F7C4009EB5D3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A388F4A72324F7D8009EB5D3 /* History.swift */,
+				A388F4A92324F7E3009EB5D3 /* HistoryService.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		A3C5E79622E1F1C60098F520 = {
@@ -402,19 +447,26 @@
 				A388F48C2324F5E1009EB5D3 /* StopoverMapViewController+ViewProtocol.swift in Sources */,
 				A388F48A2324F5A2009EB5D3 /* StopoverMapViewController.swift in Sources */,
 				A388F4A32324F75D009EB5D3 /* ResultViewController+ViewProtocol.swift in Sources */,
+				A388F4B42324F85C009EB5D3 /* HistoryViewController+ViewProtocol.swift in Sources */,
 				A388F47A2324F263009EB5D3 /* MainMapViewData.swift in Sources */,
 				A388F4732324F0C7009EB5D3 /* MapLocationService.swift in Sources */,
 				A388F4972324F6E6009EB5D3 /* Result.swift in Sources */,
+				A388F4B02324F835009EB5D3 /* HistoryPresenter.swift in Sources */,
+				A388F4AA2324F7E3009EB5D3 /* HistoryService.swift in Sources */,
 				A3C5E7A322E1F1C60098F520 /* AppDelegate.swift in Sources */,
 				A388F49D2324F718009EB5D3 /* ResultViewProtocol.swift in Sources */,
 				A388F48E2324F5FD009EB5D3 /* StopoverMapViewData.swift in Sources */,
+				A388F4A82324F7D8009EB5D3 /* History.swift in Sources */,
 				A388F49F2324F725009EB5D3 /* ResultPresenter.swift in Sources */,
 				A388F4902324F60D009EB5D3 /* StopoverMapViewProtocol.swift in Sources */,
 				A388F4862324F510009EB5D3 /* StopoverLocation.swift in Sources */,
+				A388F4B22324F84E009EB5D3 /* HistoryViewController.swift in Sources */,
+				A388F4AC2324F7FF009EB5D3 /* HistoryViewData.swift in Sources */,
 				A388F4882324F562009EB5D3 /* StopoverLocationService.swift in Sources */,
 				A388F4922324F652009EB5D3 /* StopoverMapPresenter.swift in Sources */,
 				A388F47E2324F35C009EB5D3 /* MainMapViewController+ViewProtocol.swift in Sources */,
 				A388F49B2324F70E009EB5D3 /* ResultViewData.swift in Sources */,
+				A388F4AE2324F812009EB5D3 /* HistoryViewProtocol.swift in Sources */,
 				A388F47C2324F2A3009EB5D3 /* MainMapViewProtocol.swift in Sources */,
 				A388F4782324F1F3009EB5D3 /* MainMapPresenter.swift in Sources */,
 			);
