@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MainMapViewController.swift
 //  bike-ios
 //
 //  Created by JunHui Kim on 19/07/2019.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MainMapViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
