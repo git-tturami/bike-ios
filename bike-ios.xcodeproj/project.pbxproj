@@ -7,8 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A388F4702324F087009EB5D3 /* MapLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A388F46F2324F087009EB5D3 /* MapLocation.swift */; };
+		A388F4732324F0C7009EB5D3 /* MapLocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A388F4722324F0C7009EB5D3 /* MapLocationService.swift */; };
+		A388F4782324F1F3009EB5D3 /* MainMapPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A388F4772324F1F3009EB5D3 /* MainMapPresenter.swift */; };
+		A388F47A2324F263009EB5D3 /* MainMapViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A388F4792324F263009EB5D3 /* MainMapViewData.swift */; };
+		A388F47C2324F2A3009EB5D3 /* MainMapViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A388F47B2324F2A3009EB5D3 /* MainMapViewProtocol.swift */; };
+		A388F47E2324F35C009EB5D3 /* MainMapViewController+ViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A388F47D2324F35C009EB5D3 /* MainMapViewController+ViewProtocol.swift */; };
+		A388F4862324F510009EB5D3 /* StopoverLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A388F4852324F510009EB5D3 /* StopoverLocation.swift */; };
+		A388F4882324F562009EB5D3 /* StopoverLocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A388F4872324F562009EB5D3 /* StopoverLocationService.swift */; };
+		A388F48A2324F5A2009EB5D3 /* StopoverMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A388F4892324F5A2009EB5D3 /* StopoverMapViewController.swift */; };
+		A388F48C2324F5E1009EB5D3 /* StopoverMapViewController+ViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A388F48B2324F5E1009EB5D3 /* StopoverMapViewController+ViewProtocol.swift */; };
+		A388F48E2324F5FD009EB5D3 /* StopoverMapViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A388F48D2324F5FD009EB5D3 /* StopoverMapViewData.swift */; };
+		A388F4902324F60D009EB5D3 /* StopoverMapViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A388F48F2324F60D009EB5D3 /* StopoverMapViewProtocol.swift */; };
+		A388F4922324F652009EB5D3 /* StopoverMapPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A388F4912324F651009EB5D3 /* StopoverMapPresenter.swift */; };
+		A388F4972324F6E6009EB5D3 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = A388F4962324F6E6009EB5D3 /* Result.swift */; };
+		A388F4992324F6F0009EB5D3 /* ResultService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A388F4982324F6F0009EB5D3 /* ResultService.swift */; };
+		A388F49B2324F70E009EB5D3 /* ResultViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A388F49A2324F70E009EB5D3 /* ResultViewData.swift */; };
+		A388F49D2324F718009EB5D3 /* ResultViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A388F49C2324F718009EB5D3 /* ResultViewProtocol.swift */; };
+		A388F49F2324F725009EB5D3 /* ResultPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A388F49E2324F725009EB5D3 /* ResultPresenter.swift */; };
+		A388F4A12324F74C009EB5D3 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A388F4A02324F74C009EB5D3 /* ResultViewController.swift */; };
+		A388F4A32324F75D009EB5D3 /* ResultViewController+ViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A388F4A22324F75D009EB5D3 /* ResultViewController+ViewProtocol.swift */; };
+		A388F4A82324F7D8009EB5D3 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = A388F4A72324F7D8009EB5D3 /* History.swift */; };
+		A388F4AA2324F7E3009EB5D3 /* HistoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A388F4A92324F7E3009EB5D3 /* HistoryService.swift */; };
+		A388F4AC2324F7FF009EB5D3 /* HistoryViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A388F4AB2324F7FF009EB5D3 /* HistoryViewData.swift */; };
+		A388F4AE2324F812009EB5D3 /* HistoryViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A388F4AD2324F812009EB5D3 /* HistoryViewProtocol.swift */; };
+		A388F4B02324F835009EB5D3 /* HistoryPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A388F4AF2324F835009EB5D3 /* HistoryPresenter.swift */; };
+		A388F4B22324F84E009EB5D3 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A388F4B12324F84E009EB5D3 /* HistoryViewController.swift */; };
+		A388F4B42324F85C009EB5D3 /* HistoryViewController+ViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A388F4B32324F85C009EB5D3 /* HistoryViewController+ViewProtocol.swift */; };
+		A388F4B62324F8E6009EB5D3 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = A388F4B52324F8E6009EB5D3 /* UIColor+.swift */; };
 		A3C5E7A322E1F1C60098F520 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C5E7A222E1F1C60098F520 /* AppDelegate.swift */; };
-		A3C5E7A522E1F1C60098F520 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C5E7A422E1F1C60098F520 /* ViewController.swift */; };
+		A3C5E7A522E1F1C60098F520 /* MainMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C5E7A422E1F1C60098F520 /* MainMapViewController.swift */; };
 		A3C5E7A822E1F1C60098F520 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3C5E7A622E1F1C60098F520 /* Main.storyboard */; };
 		A3C5E7AA22E1F1C90098F520 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3C5E7A922E1F1C90098F520 /* Assets.xcassets */; };
 		A3C5E7AD22E1F1C90098F520 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3C5E7AB22E1F1C90098F520 /* LaunchScreen.storyboard */; };
@@ -17,9 +45,37 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A388F46F2324F087009EB5D3 /* MapLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapLocation.swift; sourceTree = "<group>"; };
+		A388F4722324F0C7009EB5D3 /* MapLocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapLocationService.swift; sourceTree = "<group>"; };
+		A388F4772324F1F3009EB5D3 /* MainMapPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMapPresenter.swift; sourceTree = "<group>"; };
+		A388F4792324F263009EB5D3 /* MainMapViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMapViewData.swift; sourceTree = "<group>"; };
+		A388F47B2324F2A3009EB5D3 /* MainMapViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMapViewProtocol.swift; sourceTree = "<group>"; };
+		A388F47D2324F35C009EB5D3 /* MainMapViewController+ViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainMapViewController+ViewProtocol.swift"; sourceTree = "<group>"; };
+		A388F4852324F510009EB5D3 /* StopoverLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopoverLocation.swift; sourceTree = "<group>"; };
+		A388F4872324F562009EB5D3 /* StopoverLocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopoverLocationService.swift; sourceTree = "<group>"; };
+		A388F4892324F5A2009EB5D3 /* StopoverMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopoverMapViewController.swift; sourceTree = "<group>"; };
+		A388F48B2324F5E1009EB5D3 /* StopoverMapViewController+ViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StopoverMapViewController+ViewProtocol.swift"; sourceTree = "<group>"; };
+		A388F48D2324F5FD009EB5D3 /* StopoverMapViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopoverMapViewData.swift; sourceTree = "<group>"; };
+		A388F48F2324F60D009EB5D3 /* StopoverMapViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopoverMapViewProtocol.swift; sourceTree = "<group>"; };
+		A388F4912324F651009EB5D3 /* StopoverMapPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopoverMapPresenter.swift; sourceTree = "<group>"; };
+		A388F4962324F6E6009EB5D3 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		A388F4982324F6F0009EB5D3 /* ResultService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultService.swift; sourceTree = "<group>"; };
+		A388F49A2324F70E009EB5D3 /* ResultViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewData.swift; sourceTree = "<group>"; };
+		A388F49C2324F718009EB5D3 /* ResultViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewProtocol.swift; sourceTree = "<group>"; };
+		A388F49E2324F725009EB5D3 /* ResultPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultPresenter.swift; sourceTree = "<group>"; };
+		A388F4A02324F74C009EB5D3 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		A388F4A22324F75D009EB5D3 /* ResultViewController+ViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ResultViewController+ViewProtocol.swift"; sourceTree = "<group>"; };
+		A388F4A72324F7D8009EB5D3 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		A388F4A92324F7E3009EB5D3 /* HistoryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryService.swift; sourceTree = "<group>"; };
+		A388F4AB2324F7FF009EB5D3 /* HistoryViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewData.swift; sourceTree = "<group>"; };
+		A388F4AD2324F812009EB5D3 /* HistoryViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewProtocol.swift; sourceTree = "<group>"; };
+		A388F4AF2324F835009EB5D3 /* HistoryPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryPresenter.swift; sourceTree = "<group>"; };
+		A388F4B12324F84E009EB5D3 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		A388F4B32324F85C009EB5D3 /* HistoryViewController+ViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HistoryViewController+ViewProtocol.swift"; sourceTree = "<group>"; };
+		A388F4B52324F8E6009EB5D3 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
 		A3C5E79F22E1F1C60098F520 /* bike-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bike-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3C5E7A222E1F1C60098F520 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A3C5E7A422E1F1C60098F520 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A3C5E7A422E1F1C60098F520 /* MainMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMapViewController.swift; sourceTree = "<group>"; };
 		A3C5E7A722E1F1C60098F520 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A3C5E7A922E1F1C90098F520 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3C5E7AC22E1F1C90098F520 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -50,6 +106,180 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		A388F46A2324EF03009EB5D3 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A388F4742324F1BD009EB5D3 /* Model */,
+				A388F4752324F1C4009EB5D3 /* View */,
+				A388F4762324F1CA009EB5D3 /* Presenter */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		A388F46B2324EF09009EB5D3 /* Stopover */ = {
+			isa = PBXGroup;
+			children = (
+				A388F4842324F4DD009EB5D3 /* Model */,
+				A388F4832324F4D7009EB5D3 /* View */,
+				A388F4822324F4CE009EB5D3 /* Presenter */,
+			);
+			path = Stopover;
+			sourceTree = "<group>";
+		};
+		A388F46C2324EF0C009EB5D3 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				A388F4A62324F7C4009EB5D3 /* Model */,
+				A388F4A52324F7BC009EB5D3 /* View */,
+				A388F4A42324F7B4009EB5D3 /* Presenter */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		A388F46E2324EF39009EB5D3 /* End */ = {
+			isa = PBXGroup;
+			children = (
+				A388F4932324F695009EB5D3 /* Model */,
+				A388F4942324F6A4009EB5D3 /* View */,
+				A388F4952324F6AC009EB5D3 /* Presenter */,
+			);
+			path = End;
+			sourceTree = "<group>";
+		};
+		A388F4742324F1BD009EB5D3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A388F46F2324F087009EB5D3 /* MapLocation.swift */,
+				A388F4722324F0C7009EB5D3 /* MapLocationService.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A388F4752324F1C4009EB5D3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A3C5E7A422E1F1C60098F520 /* MainMapViewController.swift */,
+				A388F47D2324F35C009EB5D3 /* MainMapViewController+ViewProtocol.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A388F4762324F1CA009EB5D3 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A388F4792324F263009EB5D3 /* MainMapViewData.swift */,
+				A388F47B2324F2A3009EB5D3 /* MainMapViewProtocol.swift */,
+				A388F4772324F1F3009EB5D3 /* MainMapPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		A388F47F2324F3EA009EB5D3 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		A388F4802324F3F7009EB5D3 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		A388F4812324F42D009EB5D3 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A388F4B52324F8E6009EB5D3 /* UIColor+.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		A388F4822324F4CE009EB5D3 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A388F48D2324F5FD009EB5D3 /* StopoverMapViewData.swift */,
+				A388F48F2324F60D009EB5D3 /* StopoverMapViewProtocol.swift */,
+				A388F4912324F651009EB5D3 /* StopoverMapPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		A388F4832324F4D7009EB5D3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A388F4892324F5A2009EB5D3 /* StopoverMapViewController.swift */,
+				A388F48B2324F5E1009EB5D3 /* StopoverMapViewController+ViewProtocol.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A388F4842324F4DD009EB5D3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A388F4852324F510009EB5D3 /* StopoverLocation.swift */,
+				A388F4872324F562009EB5D3 /* StopoverLocationService.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A388F4932324F695009EB5D3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A388F4962324F6E6009EB5D3 /* Result.swift */,
+				A388F4982324F6F0009EB5D3 /* ResultService.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A388F4942324F6A4009EB5D3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A388F4A02324F74C009EB5D3 /* ResultViewController.swift */,
+				A388F4A22324F75D009EB5D3 /* ResultViewController+ViewProtocol.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A388F4952324F6AC009EB5D3 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A388F49A2324F70E009EB5D3 /* ResultViewData.swift */,
+				A388F49C2324F718009EB5D3 /* ResultViewProtocol.swift */,
+				A388F49E2324F725009EB5D3 /* ResultPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		A388F4A42324F7B4009EB5D3 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A388F4AB2324F7FF009EB5D3 /* HistoryViewData.swift */,
+				A388F4AD2324F812009EB5D3 /* HistoryViewProtocol.swift */,
+				A388F4AF2324F835009EB5D3 /* HistoryPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		A388F4A52324F7BC009EB5D3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A388F4B12324F84E009EB5D3 /* HistoryViewController.swift */,
+				A388F4B32324F85C009EB5D3 /* HistoryViewController+ViewProtocol.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A388F4A62324F7C4009EB5D3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A388F4A72324F7D8009EB5D3 /* History.swift */,
+				A388F4A92324F7E3009EB5D3 /* HistoryService.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		A3C5E79622E1F1C60098F520 = {
 			isa = PBXGroup;
 			children = (
@@ -73,11 +303,17 @@
 			isa = PBXGroup;
 			children = (
 				A3C5E7A222E1F1C60098F520 /* AppDelegate.swift */,
-				A3C5E7A422E1F1C60098F520 /* ViewController.swift */,
 				A3C5E7A622E1F1C60098F520 /* Main.storyboard */,
 				A3C5E7A922E1F1C90098F520 /* Assets.xcassets */,
 				A3C5E7AB22E1F1C90098F520 /* LaunchScreen.storyboard */,
 				A3C5E7AE22E1F1C90098F520 /* Info.plist */,
+				A388F47F2324F3EA009EB5D3 /* Common */,
+				A388F4812324F42D009EB5D3 /* Extension */,
+				A388F4802324F3F7009EB5D3 /* Resource */,
+				A388F46A2324EF03009EB5D3 /* Main */,
+				A388F46B2324EF09009EB5D3 /* Stopover */,
+				A388F46E2324EF39009EB5D3 /* End */,
+				A388F46C2324EF0C009EB5D3 /* Setting */,
 			);
 			path = "bike-ios";
 			sourceTree = "<group>";
@@ -207,8 +443,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3C5E7A522E1F1C60098F520 /* ViewController.swift in Sources */,
+				A388F4992324F6F0009EB5D3 /* ResultService.swift in Sources */,
+				A3C5E7A522E1F1C60098F520 /* MainMapViewController.swift in Sources */,
+				A388F4A12324F74C009EB5D3 /* ResultViewController.swift in Sources */,
+				A388F4702324F087009EB5D3 /* MapLocation.swift in Sources */,
+				A388F48C2324F5E1009EB5D3 /* StopoverMapViewController+ViewProtocol.swift in Sources */,
+				A388F48A2324F5A2009EB5D3 /* StopoverMapViewController.swift in Sources */,
+				A388F4A32324F75D009EB5D3 /* ResultViewController+ViewProtocol.swift in Sources */,
+				A388F4B42324F85C009EB5D3 /* HistoryViewController+ViewProtocol.swift in Sources */,
+				A388F47A2324F263009EB5D3 /* MainMapViewData.swift in Sources */,
+				A388F4732324F0C7009EB5D3 /* MapLocationService.swift in Sources */,
+				A388F4972324F6E6009EB5D3 /* Result.swift in Sources */,
+				A388F4B02324F835009EB5D3 /* HistoryPresenter.swift in Sources */,
+				A388F4AA2324F7E3009EB5D3 /* HistoryService.swift in Sources */,
 				A3C5E7A322E1F1C60098F520 /* AppDelegate.swift in Sources */,
+				A388F49D2324F718009EB5D3 /* ResultViewProtocol.swift in Sources */,
+				A388F48E2324F5FD009EB5D3 /* StopoverMapViewData.swift in Sources */,
+				A388F4A82324F7D8009EB5D3 /* History.swift in Sources */,
+				A388F49F2324F725009EB5D3 /* ResultPresenter.swift in Sources */,
+				A388F4902324F60D009EB5D3 /* StopoverMapViewProtocol.swift in Sources */,
+				A388F4862324F510009EB5D3 /* StopoverLocation.swift in Sources */,
+				A388F4B22324F84E009EB5D3 /* HistoryViewController.swift in Sources */,
+				A388F4AC2324F7FF009EB5D3 /* HistoryViewData.swift in Sources */,
+				A388F4882324F562009EB5D3 /* StopoverLocationService.swift in Sources */,
+				A388F4922324F652009EB5D3 /* StopoverMapPresenter.swift in Sources */,
+				A388F47E2324F35C009EB5D3 /* MainMapViewController+ViewProtocol.swift in Sources */,
+				A388F4B62324F8E6009EB5D3 /* UIColor+.swift in Sources */,
+				A388F49B2324F70E009EB5D3 /* ResultViewData.swift in Sources */,
+				A388F4AE2324F812009EB5D3 /* HistoryViewProtocol.swift in Sources */,
+				A388F47C2324F2A3009EB5D3 /* MainMapViewProtocol.swift in Sources */,
+				A388F4782324F1F3009EB5D3 /* MainMapPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
