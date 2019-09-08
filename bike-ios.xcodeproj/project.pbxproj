@@ -34,6 +34,7 @@
 		A388F4B02324F835009EB5D3 /* HistoryPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A388F4AF2324F835009EB5D3 /* HistoryPresenter.swift */; };
 		A388F4B22324F84E009EB5D3 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A388F4B12324F84E009EB5D3 /* HistoryViewController.swift */; };
 		A388F4B42324F85C009EB5D3 /* HistoryViewController+ViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A388F4B32324F85C009EB5D3 /* HistoryViewController+ViewProtocol.swift */; };
+		A388F4B62324F8E6009EB5D3 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = A388F4B52324F8E6009EB5D3 /* UIColor+.swift */; };
 		A3C5E7A322E1F1C60098F520 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C5E7A222E1F1C60098F520 /* AppDelegate.swift */; };
 		A3C5E7A522E1F1C60098F520 /* MainMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C5E7A422E1F1C60098F520 /* MainMapViewController.swift */; };
 		A3C5E7A822E1F1C60098F520 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3C5E7A622E1F1C60098F520 /* Main.storyboard */; };
@@ -71,6 +72,7 @@
 		A388F4AF2324F835009EB5D3 /* HistoryPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryPresenter.swift; sourceTree = "<group>"; };
 		A388F4B12324F84E009EB5D3 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 		A388F4B32324F85C009EB5D3 /* HistoryViewController+ViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HistoryViewController+ViewProtocol.swift"; sourceTree = "<group>"; };
+		A388F4B52324F8E6009EB5D3 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
 		A3C5E79F22E1F1C60098F520 /* bike-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bike-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3C5E7A222E1F1C60098F520 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3C5E7A422E1F1C60098F520 /* MainMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMapViewController.swift; sourceTree = "<group>"; };
@@ -189,6 +191,7 @@
 		A388F4812324F42D009EB5D3 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				A388F4B52324F8E6009EB5D3 /* UIColor+.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -465,6 +468,7 @@
 				A388F4882324F562009EB5D3 /* StopoverLocationService.swift in Sources */,
 				A388F4922324F652009EB5D3 /* StopoverMapPresenter.swift in Sources */,
 				A388F47E2324F35C009EB5D3 /* MainMapViewController+ViewProtocol.swift in Sources */,
+				A388F4B62324F8E6009EB5D3 /* UIColor+.swift in Sources */,
 				A388F49B2324F70E009EB5D3 /* ResultViewData.swift in Sources */,
 				A388F4AE2324F812009EB5D3 /* HistoryViewProtocol.swift in Sources */,
 				A388F47C2324F2A3009EB5D3 /* MainMapViewProtocol.swift in Sources */,

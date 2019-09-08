@@ -9,5 +9,5 @@
 import UIKit
 
 extension MainMapViewController: MainMapViewProtocol {
-    
+
 }
